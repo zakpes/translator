@@ -1,6 +1,7 @@
 :root {
-    --yellow: #f35526;
-    --yellow-dark: #df3a11;
+    --color-main: #f27935;
+    --color-main-dark: #db6625;
+    --color-main-light: #fab389;
   }
 
 h2 {
@@ -93,7 +94,7 @@ section {
 }
 
 #home-slider #whyme_img {
-    border: 6px solid var(--yellow);
+    border: 6px solid var(--color-main);
 }
 
 #home-slider .caption p {
@@ -301,7 +302,7 @@ section {
 }
 
 #expertise .bullet {
-    color: var(--yellow);
+    color: var(--color-main);
     margin-top: 40px;
 }
 
@@ -311,7 +312,7 @@ section {
 }
 
 /* #expertise .bullet li::marker {
-    color: var(--yellow);
+    color: var(--color-main);
 } */
 
 #expertise .bullet li {
@@ -339,10 +340,10 @@ section {
 * ==================================== */
 
 #accordionFaq .card {
-	background-color: var(--yellow);
+	background-color: var(--color-main);
 	border-radius: 4px;
 	margin-bottom: 20px;
-	border: 1px solid var(--yellow-dark);
+	border: 1px solid var(--color-main-dark);
 }
 
 #accordionFaq .btn.btn-link {
@@ -353,7 +354,7 @@ section {
 	font-size: 18px;
 	font-weight: 600;
 	padding: 15px 20px;
-	border-bottom: 2px solid var(--yellow-dark);
+	border-bottom: 2px solid var(--color-main-dark);
 	/* white-space: wrap; */
     white-space: normal;
     transition: background-color 200ms;
@@ -362,7 +363,7 @@ section {
 #accordionFaq .btn.btn-link:hover,
 #accordionFaq .btn.btn-link:focus {
     text-decoration: none;
-    background-color: var(--yellow-dark);
+    background-color: var(--color-main-dark);
 }
 
 #accordionFaq .card-body {
@@ -382,7 +383,7 @@ section {
 .table-rates {
     margin: 20px auto;
 	background-color: transparent;
-	border: 2px solid var(--yellow-dark);
+	border: 2px solid var(--color-main-dark);
 	border-radius: 4px;
 	border-collapse: separate;
 	/* color: hsl(42, 15.2%, 12.9%); */
@@ -391,7 +392,7 @@ section {
 }
 
 .table-rates thead {
-	background-color: var(--yellow);
+	background-color: var(--color-main);
 	/* border-radius: 4px 4px 0 0; */
 }
 
@@ -401,7 +402,7 @@ section {
 	padding: 15px 20px;
 	font-weight: 500;
 	padding-left: 20px;
-	border-bottom: 1px solid var(--yellow);
+	border-bottom: 1px solid var(--color-main);
 }
 
 .table-rates .th-gen {
@@ -423,7 +424,7 @@ section {
 	text-align: right;
 	padding-right: 20px;
 	vertical-align: middle;
-	border-bottom: 1px solid var(--yellow);
+	border-bottom: 1px solid var(--color-main);
 }
 
 .table-rates td.ta-center {
@@ -552,7 +553,7 @@ section {
 
 #main-contact-form input,
 #main-contact-form textarea {
-	border: 1px solid var(--yellow);
+	border: 1px solid var(--color-main);
 	background-color: hsla(0, 0%, 0%, 0.4);
 }
 
