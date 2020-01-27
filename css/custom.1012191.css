@@ -1,7 +1,7 @@
 :root {
-    --color-main: #f27935;
-    --color-main-dark: #db6625;
-    --color-main-light: #fab389;
+    --color-main: hsl(198.1, 98.1%, 40.4%);
+    --color-main-dark: hsl(203, 87.3%, 33.9%);
+    --color-main-light: hsl(199, 84.3%, 55.1%);
   }
 
 h2 {
@@ -89,9 +89,9 @@ section {
 	margin-top: 0;
 }
 
-#home-slider .caption .title {
+/* #home-slider .caption .title {
     text-shadow: 1px 1px 0 #ffd0b5;
-}
+} */
 
 #home-slider #whyme_img {
     border: 6px solid var(--color-main);
@@ -120,7 +120,7 @@ section {
     color: hsl(42, 15.2%, 12.9%);
     color: #fff;
     transition: background-color 200ms;
-    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.3), inset 0px 2px 0 #ff9466;
+    box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.3), inset 0px 2px 0 var(--color-main-light);
 }
 
 #home-slider .caption .btn-submit {
