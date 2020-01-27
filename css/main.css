@@ -552,7 +552,7 @@ section {
 *********Team CSS*********
 **************************/
 #team {
-  padding-top: -50px !important;
+  /* padding-top: -50px !important; */
   margin-top: -100px !important;
 }
 
@@ -786,7 +786,7 @@ section {
 }
 
 #btwitter {
-    position:relativ;
+    position:relative;
     top: initial;
     height: 45px;
     z-index: -1;
