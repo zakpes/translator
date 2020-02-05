@@ -12,7 +12,7 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/custom.1012191.css" rel="stylesheet">
+  <link href="css/custom.101219.css" rel="stylesheet">
   <!-- <script>document.write('<link rel="stylesheet" id="custom-css" href="css/custom.css?v=' + Math.floor(Math.random() * 100) + '">');</script> -->
 
   <link id="css-preset" href="css/presets/preset1-blue.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 
 <body>
 
-<script type="text/javascript">var script = document.createElement('script');script.async = true; script.type = 'text/javascript';var target = 'https://www.clickcease.com/monitor/stat.js';script.src = target;var elem = document.head;elem.appendChild(script);
+<script>var script = document.createElement('script');script.async = true; script.type = 'text/javascript';var target = 'https://www.clickcease.com/monitor/stat.js';script.src = target;var elem = document.head;elem.appendChild(script);
 </script>
 
 
@@ -737,7 +737,7 @@
 
     <!-- CONTACT -->
   <section id="contact">
-        <div id="contact-us" class="parallax"></div>
+        <div id="contact-us" class="parallax">
       <div class="container">
         <div class="row">
           <div id="contact-heading" class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -747,28 +747,28 @@
                 <iframe class="form-iframe-hidden" name="formSending"></iframe>
                 <p class="form-title">E-mail me at <a href="mailto:michaelrichards@gmail.com">michaelrichards@gmail.com</a> or fill the form below</p>
                 
-                <form id="main-contact-form" name="contact-form" action="#" target="formSending" method="POST" enctype="multipart/form-data">
+                <form id="main-contact-form" name="contact-form" method="POST" action="contact-email-test2.php" target="formSending" enctype="multipart/form-data">
                     <div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                        <input id="contactName" type="text" name="name" class="form-control" placeholder="Name" required="required">
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                        <input id="contactEmail" type="email" name="email" class="form-control" placeholder="Email Address" required="required">
                         </div>
                     </div>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                        <textarea name="message" id="contactMessage" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
                     </div> 
                     <div class="form-group ta-left">
                         <label for="formFileUpload">Send your files (optional)</label>
                         <input id="formFileUpload" class="form-control" type="file" name="file">
                     </div>
                     <div id="form-status-container">
-                        
+                        <h4 id="formStatus"></h4>
                     </div>
                     <div class="form-group">
                         <button id="formSubmitBtn" type="submit" name="submit" class="btn-submit btn-contact-form">Send</button>
@@ -776,7 +776,7 @@
                 </form>
 
 
-                <p class="contact-notice">*I typically answer by the hour.</p>
+         <p class="contact-notice">*I typically answer by the hour.</p>
                 <div id="formSubmitMessage">
                     
                 </div>  
@@ -793,7 +793,8 @@
           </div>
         </div>
       </div>
-    </div>        
+    </div>    
+</div>    
   </section><!--/#contact-->
       
   <script src="js/jquery.js"></script>
@@ -805,39 +806,8 @@
   <script src="js/jquery.countTo.js"></script>
   <script src="js/lightbox.min.js"></script>
   <script src="js/main.101219.js"></script>
-  <!-- <script>document.write('<script id="js-main" href="js/main.css?v=' + Math.floor(Math.random() * 100) + '"></script>');</script> -->
+  <!-- <script src="js/ajax.js"></script> -->
 
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151405439-1">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-151405439-1');
-    </script>
-
-<script type='text/javascript'>
-
-window.addEventListener('load', (function (t,r,a,c,k,i,n,g) {
-
-k = r.createElement(a);
-
-k.src = c;
-
-k.onload = function() {
-
-cb.run('96dadf20432c7480a640bc41750d2535', 'clickbrainiacs.com/dashboard/track/');
-
-};
-
-r.getElementsByTagName('head')[0].appendChild(k);
-
-})(window, document, 'script', 'https://www.clickbrainiacs.com/dashboard/js/tracks.js'));
-
-</script>
 
 </body>
 </html>
