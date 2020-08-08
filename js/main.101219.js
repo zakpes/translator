@@ -265,7 +265,7 @@ console.log("jQuery year: " + d.getFullYear());
     var btnSubmit = $("#formSubmitBtn");
     var formStatusContainer = $("#form-status-container");
 
-	form.submit(function(event){
+	function submitForm(event){
 
 		// event.preventDefault();
 
@@ -287,7 +287,9 @@ console.log("jQuery year: " + d.getFullYear());
 
         });
 
-	});
+    };
+    
+    // form.submit(submitForm);
         
     // form.submit(function (){
     //     $.ajax({

@@ -746,7 +746,7 @@
                 <iframe class="form-iframe-hidden" name="formSending"></iframe>
                 <p class="form-title">E-mail me at <a href="mailto:michaelrichards@gmail.com">michaelrichards@gmail.com</a> or fill the form below</p>
                 
-                <form id="main-contact-form" name="contact-form" method="POST" action="contact-email-test2.php" target="formSending" enctype="multipart/form-data">
+                <form id="main-contact-form" name="contact-form" method="POST" enctype="multipart/form-data">
                     <div class="row  wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInUp;">
                     <div class="col-12 col-sm-6">
                         <div class="form-group">
@@ -771,6 +771,8 @@
                     </div>
                     <div class="form-group">
                         <button id="formSubmitBtn" type="submit" name="submit" class="btn-submit btn-contact-form">Send</button>
+                        <!-- <button id="formSubmitBtn" type="submit" name="submit" class="btn-submit btn-contact-form"><i class='fa fa-spinner fa-spin'></i> Sending...</button> -->
+                        
                     </div>
                 </form>
 
@@ -805,7 +807,7 @@
   <script src="js/jquery.countTo.js"></script>
   <script src="js/lightbox.min.js"></script>
   <script src="js/main.101219.js"></script>
-  <!-- <script src="js/ajax.js"></script> -->
+  <script src="js/fetch-data.js"></script>
 
 
 </body>
